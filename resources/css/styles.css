@@ -124,6 +124,10 @@
 
 /* reset browser defaults */
 
+* {
+	border: 1px solid red !important;
+}
+
 html {
 	background-image: url(../img/david-clode-ONGtWYk2z4E-unsplash_opt.jpg);
 	font: inherit;
@@ -160,7 +164,7 @@ main {
 
 section {
 	background-color: black;
-	padding: 3px;
+	padding: 10px;
 	margin-top: 5px;
 	margin-bottom: 17px;
 }
@@ -203,9 +207,38 @@ h2 {
 	width: 20%;
 	padding: 10px;
 	background-color: lightcoral;
+	margin-bottom: 15px;
+	margin-right: 10px;
 }
 
+.color2 {
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	background-color: blueviolet;
+	margin-bottom: 15px;
+	margin-right: 10px;
 
+}
 
+.color3 {
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	background-color: limegreen;
+	margin-bottom: 15px;
+	margin-right: 10px;
+
+}
+
+.color4 {
+	display: inline-block;
+	width: 20%;
+	padding: 10px;
+	background-color: darkcyan;
+	margin-bottom: 15px;
+	margin-right: 10px;
+
+}
 
 
